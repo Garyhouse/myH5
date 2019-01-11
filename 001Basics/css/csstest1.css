@@ -1,4 +1,4 @@
-                      html，body，page{
+html，body，page{
                           height: 100%;
                           width: 100%;
                           margin-left: 0;
@@ -32,6 +32,19 @@ page{
     background-color: black;
     color: white;
     animation: d 10s infinite;
+}
+#zhen
+{
+    font-size: 36px;
+    display: block;
+    animation: zhen 10s infinite;
+}
+@keyframes zhen {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    98%{opacity: 0}
+    100%{opacity: 0}
 }
 @keyframes c {
     0%{opacity: 0}
