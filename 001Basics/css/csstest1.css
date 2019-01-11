@@ -14,22 +14,26 @@ page{
 }
 #c
 {
-    background-color: lightgreen;
+    background-image:url(../images/chun.jpg);
+    background-size: cover;
     animation: c 10s infinite;
 }
 #x
 {
-    background-color: red;
+    background-image:url(../images/xia.jpg);
+    background-size: cover;
     animation: x 10s infinite;
 }
 #q
 {
-    background-color: peru;
+    background-image:url(../images/qiu.jpg);
+    background-size: cover;
     animation: q 10s infinite;
 }
 #d
 {
-    background-color: black;
+    background-image:url(../images/dong.jpg);
+    background-size: cover;
     color: white;
     animation: d 10s infinite;
 }
