@@ -11,9 +11,16 @@
         priceoff=0.9;assignment
         price=price*priceoff;
 */
-var price=39.9,priceoff=0.9;//declaration&assignment
+var price=prompt("请输入价格","###");
+var priceoff=prompt("请输入折扣","8");
+//
+function toPoint(percent){
+    var str=percent/10;
+    return str;
+}//折扣转化为小数
+priceoff=toPoint(priceoff);
 price=price*priceoff;
-        alert("现在的价格是"+price)
+        alert("现在的价格是"+price);
     </script>
 </head>
 <body>
