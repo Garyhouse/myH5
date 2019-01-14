@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第二杯半价</title>
+    <script>
+        var price=12,count;
+        count=prompt(price+"元一杯,您要多少杯?");
+        if(isNaN(count)){
+            alert("请输入数字")
+
+        }
+        else{
+            if(count%2==0){
+                totalprice= count*price*3/4;
+            }
+            else{
+                totalprice=count*price*3/4+price/4; /*这里count为字符变量，乘号将price转变为字符变量*/
+                /*
+                            totalprice=(count+1)/2*price*3/2-price/2;
+                */
+            }
+            alert("您总共消费了"+totalprice+"元");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
